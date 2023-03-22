@@ -11,6 +11,15 @@
 		0ACC13C929CAEF8D0008ED8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13C829CAEF8D0008ED8D /* ContentView.swift */; };
 		0ACC13CB29CAEF8F0008ED8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC13CA29CAEF8F0008ED8D /* Assets.xcassets */; };
 		0ACC13CE29CAEF8F0008ED8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC13CD29CAEF8F0008ED8D /* Preview Assets.xcassets */; };
+		0ACC13D829CAF1CE0008ED8D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13D729CAF1CE0008ED8D /* MapView.swift */; };
+		0ACC13DC29CAF6F70008ED8D /* ButtonFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13DB29CAF6F70008ED8D /* ButtonFavorite.swift */; };
+		0ACC13DE29CAF73E0008ED8D /* ButtonLocateMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13DD29CAF73E0008ED8D /* ButtonLocateMe.swift */; };
+		0ACC13E029CAF80B0008ED8D /* ButtonFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13DF29CAF80B0008ED8D /* ButtonFilters.swift */; };
+		0ACC13E429CB02360008ED8D /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13E329CB02360008ED8D /* PickerView.swift */; };
+		0ACC13E629CB0A810008ED8D /* ButtonCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13E529CB0A810008ED8D /* ButtonCategories.swift */; };
+		0ACC13E829CB12B30008ED8D /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13E729CB12B30008ED8D /* MapDetailView.swift */; };
+		0ACC13EA29CB35060008ED8D /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13E929CB35060008ED8D /* ActivityListView.swift */; };
+		0ACC13EC29CB369C0008ED8D /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13EB29CB369C0008ED8D /* ActivityList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		0ACC13C829CAEF8D0008ED8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0ACC13CA29CAEF8F0008ED8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACC13CD29CAEF8F0008ED8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0ACC13D729CAF1CE0008ED8D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0ACC13DB29CAF6F70008ED8D /* ButtonFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFavorite.swift; sourceTree = "<group>"; };
+		0ACC13DD29CAF73E0008ED8D /* ButtonLocateMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLocateMe.swift; sourceTree = "<group>"; };
+		0ACC13DF29CAF80B0008ED8D /* ButtonFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFilters.swift; sourceTree = "<group>"; };
+		0ACC13E329CB02360008ED8D /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		0ACC13E529CB0A810008ED8D /* ButtonCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCategories.swift; sourceTree = "<group>"; };
+		0ACC13E729CB12B30008ED8D /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
+		0ACC13E929CB35060008ED8D /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
+		0ACC13EB29CB369C0008ED8D /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,9 @@
 		0ACC13C529CAEF8D0008ED8D /* Xplore */ = {
 			isa = PBXGroup;
 			children = (
+				0ACC13D429CAF15E0008ED8D /* View */,
+				0ACC13D629CAF1870008ED8D /* Model */,
+				0ACC13D529CAF1810008ED8D /* Components */,
 				0ACC13C629CAEF8D0008ED8D /* XploreApp.swift */,
 				0ACC13C829CAEF8D0008ED8D /* ContentView.swift */,
 				0ACC13CA29CAEF8F0008ED8D /* Assets.xcassets */,
@@ -65,6 +86,36 @@
 				0ACC13CD29CAEF8F0008ED8D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ACC13D429CAF15E0008ED8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC13D729CAF1CE0008ED8D /* MapView.swift */,
+				0ACC13E729CB12B30008ED8D /* MapDetailView.swift */,
+				0ACC13E929CB35060008ED8D /* ActivityListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0ACC13D529CAF1810008ED8D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC13DB29CAF6F70008ED8D /* ButtonFavorite.swift */,
+				0ACC13DD29CAF73E0008ED8D /* ButtonLocateMe.swift */,
+				0ACC13DF29CAF80B0008ED8D /* ButtonFilters.swift */,
+				0ACC13E529CB0A810008ED8D /* ButtonCategories.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0ACC13D629CAF1870008ED8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC13E329CB02360008ED8D /* PickerView.swift */,
+				0ACC13EB29CB369C0008ED8D /* ActivityList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACC13DC29CAF6F70008ED8D /* ButtonFavorite.swift in Sources */,
+				0ACC13EC29CB369C0008ED8D /* ActivityList.swift in Sources */,
+				0ACC13EA29CB35060008ED8D /* ActivityListView.swift in Sources */,
 				0ACC13C929CAEF8D0008ED8D /* ContentView.swift in Sources */,
+				0ACC13DE29CAF73E0008ED8D /* ButtonLocateMe.swift in Sources */,
+				0ACC13E629CB0A810008ED8D /* ButtonCategories.swift in Sources */,
+				0ACC13E829CB12B30008ED8D /* MapDetailView.swift in Sources */,
+				0ACC13E029CAF80B0008ED8D /* ButtonFilters.swift in Sources */,
+				0ACC13D829CAF1CE0008ED8D /* MapView.swift in Sources */,
+				0ACC13E429CB02360008ED8D /* PickerView.swift in Sources */,
 				0ACC13C729CAEF8D0008ED8D /* XploreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
