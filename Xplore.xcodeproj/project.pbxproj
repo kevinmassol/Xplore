@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0ACC13C729CAEF8D0008ED8D /* XploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13C629CAEF8D0008ED8D /* XploreApp.swift */; };
-		0ACC13C929CAEF8D0008ED8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13C829CAEF8D0008ED8D /* ContentView.swift */; };
 		0ACC13CB29CAEF8F0008ED8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC13CA29CAEF8F0008ED8D /* Assets.xcassets */; };
 		0ACC13CE29CAEF8F0008ED8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC13CD29CAEF8F0008ED8D /* Preview Assets.xcassets */; };
 		0ACC13D829CAF1CE0008ED8D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13D729CAF1CE0008ED8D /* MapView.swift */; };
@@ -20,12 +19,12 @@
 		0ACC13E829CB12B30008ED8D /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13E729CB12B30008ED8D /* MapDetailView.swift */; };
 		0ACC13EA29CB35060008ED8D /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13E929CB35060008ED8D /* ActivityListView.swift */; };
 		0ACC13EC29CB369C0008ED8D /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13EB29CB369C0008ED8D /* ActivityList.swift */; };
+		0ACC13EE29CB4C620008ED8D /* DescriptionActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0ACC13C329CAEF8D0008ED8D /* Xplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACC13C629CAEF8D0008ED8D /* XploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XploreApp.swift; sourceTree = "<group>"; };
-		0ACC13C829CAEF8D0008ED8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0ACC13CA29CAEF8F0008ED8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACC13CD29CAEF8F0008ED8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0ACC13D729CAF1CE0008ED8D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		0ACC13E729CB12B30008ED8D /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
 		0ACC13E929CB35060008ED8D /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
 		0ACC13EB29CB369C0008ED8D /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +69,10 @@
 		0ACC13C529CAEF8D0008ED8D /* Xplore */ = {
 			isa = PBXGroup;
 			children = (
+				0ACC13C629CAEF8D0008ED8D /* XploreApp.swift */,
 				0ACC13D429CAF15E0008ED8D /* View */,
 				0ACC13D629CAF1870008ED8D /* Model */,
 				0ACC13D529CAF1810008ED8D /* Components */,
-				0ACC13C629CAEF8D0008ED8D /* XploreApp.swift */,
-				0ACC13C829CAEF8D0008ED8D /* ContentView.swift */,
 				0ACC13CA29CAEF8F0008ED8D /* Assets.xcassets */,
 				0ACC13CC29CAEF8F0008ED8D /* Preview Content */,
 			);
@@ -94,6 +93,7 @@
 				0ACC13D729CAF1CE0008ED8D /* MapView.swift */,
 				0ACC13E729CB12B30008ED8D /* MapDetailView.swift */,
 				0ACC13E929CB35060008ED8D /* ActivityListView.swift */,
+				0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,11 +191,11 @@
 				0ACC13DC29CAF6F70008ED8D /* ButtonFavorite.swift in Sources */,
 				0ACC13EC29CB369C0008ED8D /* ActivityList.swift in Sources */,
 				0ACC13EA29CB35060008ED8D /* ActivityListView.swift in Sources */,
-				0ACC13C929CAEF8D0008ED8D /* ContentView.swift in Sources */,
 				0ACC13DE29CAF73E0008ED8D /* ButtonLocateMe.swift in Sources */,
 				0ACC13E629CB0A810008ED8D /* ButtonCategories.swift in Sources */,
 				0ACC13E829CB12B30008ED8D /* MapDetailView.swift in Sources */,
 				0ACC13E029CAF80B0008ED8D /* ButtonFilters.swift in Sources */,
+				0ACC13EE29CB4C620008ED8D /* DescriptionActivityView.swift in Sources */,
 				0ACC13D829CAF1CE0008ED8D /* MapView.swift in Sources */,
 				0ACC13E429CB02360008ED8D /* PickerView.swift in Sources */,
 				0ACC13C729CAEF8D0008ED8D /* XploreApp.swift in Sources */,
