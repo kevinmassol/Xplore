@@ -20,6 +20,8 @@
 		0ACC13EA29CB35060008ED8D /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13E929CB35060008ED8D /* ActivityListView.swift */; };
 		0ACC13EC29CB369C0008ED8D /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13EB29CB369C0008ED8D /* ActivityList.swift */; };
 		0ACC13EE29CB4C620008ED8D /* DescriptionActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */; };
+		0ACC13F229CC4DC40008ED8D /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13F129CC4DC40008ED8D /* FiltersView.swift */; };
+		0ACC13F429CC581E0008ED8D /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13F329CC581E0008ED8D /* FavoritesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		0ACC13E929CB35060008ED8D /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
 		0ACC13EB29CB369C0008ED8D /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
 		0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionActivityView.swift; sourceTree = "<group>"; };
+		0ACC13F129CC4DC40008ED8D /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
+		0ACC13F329CC581E0008ED8D /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 			children = (
 				0ACC13E329CB02360008ED8D /* PickerView.swift */,
 				0ACC13EB29CB369C0008ED8D /* ActivityList.swift */,
+				0ACC13F129CC4DC40008ED8D /* FiltersView.swift */,
+				0ACC13F329CC581E0008ED8D /* FavoritesView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,8 +196,10 @@
 			files = (
 				0ACC13DC29CAF6F70008ED8D /* ButtonFavorite.swift in Sources */,
 				0ACC13EC29CB369C0008ED8D /* ActivityList.swift in Sources */,
+				0ACC13F429CC581E0008ED8D /* FavoritesView.swift in Sources */,
 				0ACC13EA29CB35060008ED8D /* ActivityListView.swift in Sources */,
 				0ACC13DE29CAF73E0008ED8D /* ButtonLocateMe.swift in Sources */,
+				0ACC13F229CC4DC40008ED8D /* FiltersView.swift in Sources */,
 				0ACC13E629CB0A810008ED8D /* ButtonCategories.swift in Sources */,
 				0ACC13E829CB12B30008ED8D /* MapDetailView.swift in Sources */,
 				0ACC13E029CAF80B0008ED8D /* ButtonFilters.swift in Sources */,

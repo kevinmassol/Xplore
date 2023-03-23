@@ -17,7 +17,7 @@ struct PickerView: View {
     @State private var selectedPicker = choosePicker.map
     
     var body: some View {
-        Picker("Flavor", selection: $selectedPicker) {
+        Picker("Map", selection: $selectedPicker) {
             Text("Map")
                 .tag(choosePicker.map)
             Text("Liste")
