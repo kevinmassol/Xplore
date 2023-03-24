@@ -22,6 +22,11 @@
 		0ACC13EE29CB4C620008ED8D /* DescriptionActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */; };
 		0ACC13F229CC4DC40008ED8D /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13F129CC4DC40008ED8D /* FiltersView.swift */; };
 		0ACC13F429CC581E0008ED8D /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13F329CC581E0008ED8D /* FavoritesView.swift */; };
+		0ACC13F929CC9ADA0008ED8D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13F829CC9ADA0008ED8D /* MainView.swift */; };
+		0ACC13FB29CC9AF90008ED8D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC13FA29CC9AF90008ED8D /* HomeView.swift */; };
+		0ACC141129CCDFBD0008ED8D /* MainChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC141029CCDFBD0008ED8D /* MainChat.swift */; };
+		0ACC141329CCDFCF0008ED8D /* ChatPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC141229CCDFCF0008ED8D /* ChatPrivate.swift */; };
+		0ACC141529CCE0250008ED8D /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC141429CCE0250008ED8D /* ProfilView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionActivityView.swift; sourceTree = "<group>"; };
 		0ACC13F129CC4DC40008ED8D /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
 		0ACC13F329CC581E0008ED8D /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		0ACC13F829CC9ADA0008ED8D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0ACC13FA29CC9AF90008ED8D /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0ACC141029CCDFBD0008ED8D /* MainChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainChat.swift; sourceTree = "<group>"; };
+		0ACC141229CCDFCF0008ED8D /* ChatPrivate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatPrivate.swift; sourceTree = "<group>"; };
+		0ACC141429CCE0250008ED8D /* ProfilView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,9 @@
 		0ACC13D429CAF15E0008ED8D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0ACC13D729CAF1CE0008ED8D /* MapView.swift */,
-				0ACC13E729CB12B30008ED8D /* MapDetailView.swift */,
-				0ACC13E929CB35060008ED8D /* ActivityListView.swift */,
-				0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */,
+				0ACC13FC29CC9B050008ED8D /* HomePage(Hocine) */,
+				0ACC13F529CC98B40008ED8D /* Map(Kevin) */,
+				0ACC140F29CCDEE80008ED8D /* Message(Valentina) */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,10 +114,7 @@
 		0ACC13D529CAF1810008ED8D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				0ACC13DB29CAF6F70008ED8D /* ButtonFavorite.swift */,
-				0ACC13DD29CAF73E0008ED8D /* ButtonLocateMe.swift */,
-				0ACC13DF29CAF80B0008ED8D /* ButtonFilters.swift */,
-				0ACC13E529CB0A810008ED8D /* ButtonCategories.swift */,
+				0ACC13F729CC98E00008ED8D /* Map(Kevin) */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -116,12 +122,61 @@
 		0ACC13D629CAF1870008ED8D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0ACC13F629CC98CF0008ED8D /* Map(Kevin) */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0ACC13F529CC98B40008ED8D /* Map(Kevin) */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC13D729CAF1CE0008ED8D /* MapView.swift */,
+				0ACC13E729CB12B30008ED8D /* MapDetailView.swift */,
+				0ACC13E929CB35060008ED8D /* ActivityListView.swift */,
+				0ACC13ED29CB4C620008ED8D /* DescriptionActivityView.swift */,
+			);
+			path = "Map(Kevin)";
+			sourceTree = "<group>";
+		};
+		0ACC13F629CC98CF0008ED8D /* Map(Kevin) */ = {
+			isa = PBXGroup;
+			children = (
 				0ACC13E329CB02360008ED8D /* PickerView.swift */,
 				0ACC13EB29CB369C0008ED8D /* ActivityList.swift */,
 				0ACC13F129CC4DC40008ED8D /* FiltersView.swift */,
 				0ACC13F329CC581E0008ED8D /* FavoritesView.swift */,
 			);
-			path = Model;
+			path = "Map(Kevin)";
+			sourceTree = "<group>";
+		};
+		0ACC13F729CC98E00008ED8D /* Map(Kevin) */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC13DB29CAF6F70008ED8D /* ButtonFavorite.swift */,
+				0ACC13DD29CAF73E0008ED8D /* ButtonLocateMe.swift */,
+				0ACC13DF29CAF80B0008ED8D /* ButtonFilters.swift */,
+				0ACC13E529CB0A810008ED8D /* ButtonCategories.swift */,
+			);
+			path = "Map(Kevin)";
+			sourceTree = "<group>";
+		};
+		0ACC13FC29CC9B050008ED8D /* HomePage(Hocine) */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC13F829CC9ADA0008ED8D /* MainView.swift */,
+				0ACC13FA29CC9AF90008ED8D /* HomeView.swift */,
+			);
+			path = "HomePage(Hocine)";
+			sourceTree = "<group>";
+		};
+		0ACC140F29CCDEE80008ED8D /* Message(Valentina) */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC141029CCDFBD0008ED8D /* MainChat.swift */,
+				0ACC141229CCDFCF0008ED8D /* ChatPrivate.swift */,
+				0ACC141429CCE0250008ED8D /* ProfilView.swift */,
+			);
+			path = "Message(Valentina)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,15 +252,20 @@
 				0ACC13DC29CAF6F70008ED8D /* ButtonFavorite.swift in Sources */,
 				0ACC13EC29CB369C0008ED8D /* ActivityList.swift in Sources */,
 				0ACC13F429CC581E0008ED8D /* FavoritesView.swift in Sources */,
+				0ACC13FB29CC9AF90008ED8D /* HomeView.swift in Sources */,
 				0ACC13EA29CB35060008ED8D /* ActivityListView.swift in Sources */,
 				0ACC13DE29CAF73E0008ED8D /* ButtonLocateMe.swift in Sources */,
 				0ACC13F229CC4DC40008ED8D /* FiltersView.swift in Sources */,
 				0ACC13E629CB0A810008ED8D /* ButtonCategories.swift in Sources */,
+				0ACC13F929CC9ADA0008ED8D /* MainView.swift in Sources */,
 				0ACC13E829CB12B30008ED8D /* MapDetailView.swift in Sources */,
 				0ACC13E029CAF80B0008ED8D /* ButtonFilters.swift in Sources */,
 				0ACC13EE29CB4C620008ED8D /* DescriptionActivityView.swift in Sources */,
 				0ACC13D829CAF1CE0008ED8D /* MapView.swift in Sources */,
 				0ACC13E429CB02360008ED8D /* PickerView.swift in Sources */,
+				0ACC141529CCE0250008ED8D /* ProfilView.swift in Sources */,
+				0ACC141329CCDFCF0008ED8D /* ChatPrivate.swift in Sources */,
+				0ACC141129CCDFBD0008ED8D /* MainChat.swift in Sources */,
 				0ACC13C729CAEF8D0008ED8D /* XploreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
