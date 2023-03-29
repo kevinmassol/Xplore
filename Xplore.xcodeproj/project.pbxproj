@@ -122,11 +122,11 @@
 				0ACC13F129CC4DC40008ED8D /* FiltersView.swift */,
 				0ACC13F329CC581E0008ED8D /* FavoritesView.swift */,
 				0AC80F8D29D4460700CAE7AA /* MainChat.swift */,
+				0ACC141629CDF23A0008ED8D /* TextBar.swift */,
 				0AC80F8C29D4460700CAE7AA /* ProfilView.swift */,
 				0AC80F8E29D4460700CAE7AA /* ChatPrivate.swift */,
 				0AC80F8229D43EFC00CAE7AA /* LoginView.swift */,
 				0AC80F7C29D31DE900CAE7AA /* UserProfile.swift */,
-				0ACC141629CDF23A0008ED8D /* TextBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
