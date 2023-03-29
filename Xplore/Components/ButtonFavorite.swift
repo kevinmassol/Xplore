@@ -13,8 +13,8 @@ struct ButtonFavorite: View {
             RoundedRectangle(cornerRadius: 20)
                 .foregroundColor(.yellow)
                 .frame(width: 140, height: 40)
-            Button {
-                //
+            NavigationLink {
+                FavoritesView()
             } label: {
                 Label("Favoris", systemImage: "star.fill")
             }

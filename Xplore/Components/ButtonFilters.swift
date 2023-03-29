@@ -13,8 +13,8 @@ struct ButtonFilters: View {
             RoundedRectangle(cornerRadius: 20)
                 .foregroundColor(.yellow)
                 .frame(width: 140, height: 40)
-            Button {
-                //
+            NavigationLink {
+                FiltersView()
             } label: {
                 Label("Filtres", systemImage: "line.3.horizontal.decrease.circle.fill")
             }
