@@ -27,6 +27,7 @@ struct MapDetailView: View {
                     } label: {
                         Image(systemName: "mappin.circle.fill")
                             .resizable()
+                            .font(.system(size: 35))
                             .foregroundColor(.red)
                     }
                 }
