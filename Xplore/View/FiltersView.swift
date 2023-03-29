@@ -35,6 +35,8 @@ struct FiltersView: View {
                 }
             }
         }
+        .navigationTitle("Retour")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

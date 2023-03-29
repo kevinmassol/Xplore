@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        NavigationStack{
+        NavigationStack {
             VStack {
                 ZStack {
                     Color("lightblue")
@@ -88,6 +88,8 @@ struct HomeView: View {
                     }
                 }
             }
+            .navigationTitle("Retour")
+            .navigationBarTitleDisplayMode(.inline)
             .edgesIgnoringSafeArea(.top)
         }
     }

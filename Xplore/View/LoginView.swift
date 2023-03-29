@@ -88,6 +88,8 @@ struct LoginView: View {
                     }
                 }
             }
+            .navigationTitle("Profil")
+            .navigationBarTitleDisplayMode(.inline)
             Divider()
         }
     }
