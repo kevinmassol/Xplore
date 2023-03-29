@@ -12,16 +12,14 @@ struct HomeView: View {
         NavigationStack{
             VStack {
                 ZStack {
-                    ScrollView {
-                        VStack{
-                            ZStack{
-                                Rectangle()
-                                Image("logo_app")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(height: 190)
-                                    .padding(.vertical)
-                            }
+                    Color("lightblue")
+                    VStack{
+                        Image("logo_app")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .frame(height: 180)
+                            .padding(.vertical)
+                        ScrollView {
                             Label("Visites", systemImage: "binoculars.fill")
                                 .font(.title)
                                 .fontWeight(.heavy)
@@ -89,12 +87,12 @@ struct HomeView: View {
                         }
                     }
                 }
-                .background(Color("lightblue"))
             }
             .edgesIgnoringSafeArea(.top)
         }
     }
 }
+
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {

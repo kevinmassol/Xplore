@@ -17,7 +17,6 @@ struct MapDetailView: View {
     var body: some View {
         Map(
             coordinateRegion: $viewModel.region,
-            interactionModes: .all,
             showsUserLocation: true,
             userTrackingMode: .constant(.none),
             annotationItems: activities) { activity in

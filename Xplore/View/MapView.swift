@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import _MapKit_SwiftUI
 
 struct MapView: View {
     var body: some View {

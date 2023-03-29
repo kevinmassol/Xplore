@@ -19,10 +19,12 @@ final class MapDetail: NSObject, ObservableObject, CLLocationManagerDelegate {
     var locationManager: CLLocationManager?
     func checkIfLocationServicesIsEnabled() {
         if CLLocationManager.locationServicesEnabled() {
-            locationManager = CLLocationManager()
-            checkLocationAuthorization()
-            locationManager!.delegate = self
-            locationManager!.desiredAccuracy = kCLLocationAccuracyBest
+            DispatchQueue.main.async {
+                self.locationManager = CLLocationManager()
+                self.checkLocationAuthorization()
+                self.locationManager!.delegate = self
+                self.locationManager!.desiredAccuracy = kCLLocationAccuracyBest
+            }
         } else {
             print("Show an alert letting them know this is off and to go turn it on.")
         }
