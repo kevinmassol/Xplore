@@ -90,6 +90,7 @@ struct HomeView: View {
             }
             .navigationTitle("Retour")
             .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
             .edgesIgnoringSafeArea(.top)
         }
     }
