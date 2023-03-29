@@ -6,32 +6,34 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct PickerView: View {
     
-    enum choosePicker {
+    enum ChoosePicker {
         case map
         case liste
     }
     
-    @State private var selectedPicker = choosePicker.map
+    @State private var selectedPicker = ChoosePicker.map
     
     var body: some View {
         VStack {
             NavigationStack {
                 Picker("Picker", selection: $selectedPicker) {
                     Text("Map")
-                        .tag(choosePicker.map)
+                        .tag(ChoosePicker.map)
                     Text("Liste")
-                        .tag(choosePicker.liste)
+                        .tag(ChoosePicker.liste)
                 }
                 .frame(width: 150)
                 .pickerStyle(SegmentedPickerStyle())
                 if selectedPicker == .map {
                     MapDetailView()
                 } else {
-                    ActivityListView()
+                    ActivityListView(filtres: [.Visites, .Nature, .Festival])
                 }
+                Spacer()
             }
         }
     }
